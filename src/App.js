@@ -1,15 +1,11 @@
 import React from "react";
 import "./App.css";
-import "./CSS/Form.css";
-
-import SignIn from "./Component/SignIn";
-import SignUp from "./Component/SignUp";
+import TaskList from "./Component/TaskList";
 
 function App() {
   return (
     <div className="App">
-      <SignIn />
-      {/* <SignUp></SignUp> */}
+      <TaskList />
     </div>
   );
 }
